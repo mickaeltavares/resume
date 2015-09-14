@@ -1,0 +1,91 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% moderncv themes
+\usepackage[french]{babel}
+\moderncvstyle{custom}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{purple}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+\nopagenumbers{}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\AtBeginDocument{\def\labelitemi{$\bullet$}}
+
+% adjust the page margins
+\usepackage[scale=0.85, top=1cm, bottom=0.7cm]{geometry}
+
+% personal data
+\name{Mickaël}{Tavares}
+\title{Ingénieur en informatique diplômé de l'EPITA recherche un CDI en tant que Data Scientist}
+\address{25 rue Jules Védrines}{93800 Epinay-sur-Seine}
+\phone[mobile]{06 21 37 77 15}
+\email{mickael18tavares@gmail.com}
+\social[linkedin]{}
+\social[twitter]{}
+\social[github]{}
+\extrainfo{22 ans - Permis B}
+\photo[64pt][0.1pt]{id}                       % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Formation}
+\cventry{2010--2015}{École Pour l'Informatique et les Techniques Avancées}
+	   {EPITA}{Kremlin-Bicêtre}{}
+	   {Étudiant en 5ème année spécialisé en Machine Learning et Data Analytics}
+\cventry{Fév. 2012 -- Juin 2012}{University of Seoul}
+	   {UoS}{Séoul}{Corée du Sud}
+	   {Semestre universitaire en échange international}
+
+\section{Compétences}
+\subsection{Informatique}
+\cvdoubleitem{Langages}{C, C\texttt{++}, Java, sh, Python, Matlab}
+		    {Web}{HTML5, CSS, Javascript, PHP, JEE, Django}
+\cvdoubleitem{Systèmes}{GNU/Linux, Windows, MacOS}
+		    {Logiciels}{Git, Word, Excel, PowerPoint, \LaTeX}
+\cvdoubleitem{Base de données}{PostgreSQL, MySQL, MongoDB}
+		    {}{}
+\subsection{Langues}
+\cvdoubleitem{Courant}{Français, Anglais (TOEIC: 950/990)}
+		    {Intermédiaire}{Portugais, Espagnol}
+
+\section{Expériences Professionnelles}
+\cventry{Fév. 2015 - Juil. 2015}{Stage : Full-stack Developer PHP/AngularJS}
+	   {MakeMeReach}{Paris}{}
+	   {Développements Frontend et Backend et R\&D en Machine Learning}
+\cventry{Jan. 2014 -- Jan. 2015}{Assistant C/Unix et C\texttt{++}/Java}
+	   {EPITA}{Kremlin-Bicêtre}{}
+	   {Membre d'une équipe de 30 assistants enseignant le C, C\texttt{++}, Java, SQL et UNIX aux 300 étudiants de 3\up{ème} année}
+\cventry{Jan. 2014 -- Nov. 2014}{Chargé d'études}
+	   {Optae}{Paris}{à temps partiel}
+	   {Étude de faisabilité d'un portail Web SIG interactif (http://pav.trackoe.fr) en Django}
+\cventry{Sept. 2013 -- Jan. 2014}{Stage : Génie logiciel}
+	   {Optae}{Paris}{}
+	   {Semi-automatisation d'un workflow SIG complexe : spécifications et développements d'outils internes en Java}
+
+\section{Projets d'études}
+\cventry{Juin 2014 - Jan. 2015}{Implémentation et évaluation d'une IA d'équipe pour un jeu de type MOBA}
+	   {Projet de fin d'études}
+	   {Lua, Python, PostgreSQL}
+	   {}
+	   {Implémentation en Lua, parsing des logs et évaluation de l'IA d'équipe en Python}
+\cventry{Sept. 2014}{Programme de reconnaissance de signatures manuscrites}
+	   {Machine Learning}
+	   {Python, Numpy, SciPy}
+	   {}
+	   {Implémentation d'une méthode DTW normalisée capable de différencier 2 signatures}
+\cventry{Juin 2014}{Programme de détection de plaques minéralogiques}
+	   {Computer Vision}
+	   {C\texttt{++}, OpenCV}
+	   {}
+	   {Détection et lecture via OCR d'une plaque minéralogique dans une image naturelle}
+
+\section{Centres d'intérêts}
+\cvitem{Machine Learning}{Approfondissements de connaissances via de multiples cours en ligne et Kaggle}
+\cvitem{Programmation Android}{Développement de jeux vidéos avec libgdx}
+\cvitem{Web Scraping}{Extraction de données avec BeautifulSoup en Python}
+
+\end{document}
